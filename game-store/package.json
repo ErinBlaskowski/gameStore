@@ -1,6 +1,6 @@
 {
   "homepage": "/gameStore/game-store",
-  "name": "game-store",
+  "name": "/gameStore/game-store",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
