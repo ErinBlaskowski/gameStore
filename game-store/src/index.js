@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Store from "./pages/Store";
 import ItemPreview from "./pages/ItemPreview";
+import NoPage from "./pages/NoPage";
 
 export default function App() {
   return (
