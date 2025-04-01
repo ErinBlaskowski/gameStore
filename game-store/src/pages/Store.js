@@ -29,10 +29,10 @@ const Store = () => {
             </section>
             <nav id="main-nav">
                 <ul>
-                    <li><a href="/home">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a id="store" href="/store">Store</a></li>
-                    <li><a href="/events">Events</a></li>
+                    <li><a href="./Home">Home</a></li>
+                    <li><a href="./About">About</a></li>
+                    <li><a id="store" href="./Store">Store</a></li>
+                    <li><a href="./Events">Events</a></li>
                 </ul>
             </nav>
             <h1 id="title">CrowPing Games</h1>

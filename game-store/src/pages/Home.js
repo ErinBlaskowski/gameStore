@@ -36,7 +36,7 @@ const Home = () => {
         <main class="main">
             <section class="left-flex">
                 <div class="flex-item3">
-                    <a href="./Store"><img src={diceSet} alt="300x600" height="600px" width="400"></img></a>
+                    <a href="./Store"><img src={diceTrayGame} alt="300x600" height="600px" width="400"></img></a>
                     <p>Check out the newest expansions <b>here!</b></p>
                 </div>
             </section>
@@ -44,7 +44,7 @@ const Home = () => {
             <section class="mid-flex">
                 <div class="flex-item">
                     <section class="box">
-                        <a href="./Store"><img src={diceTrayGame} height="150px" width="200px" alt="200x50"></img></a>
+                        <a href="./Store"><img src={diceSet} height="150px" width="200px" alt="200x50"></img></a>
                         <h3>White Dice Set - $13.99</h3>
                     </section>
                 </div>
