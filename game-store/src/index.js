@@ -16,6 +16,7 @@ export default function App() {
           <Route path="about" element={<About />} />
           <Route path="store" element={<Store />} />
           <Route path="ItemPreview" element={<ItemPreview />} />
+          <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
