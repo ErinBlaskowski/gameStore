@@ -6,7 +6,22 @@ import dominos from "../images/Dominos.png";
 import funkyChessSet from "../images/FunkyChessSet.png";
 import setOfEightPuzzles from "../images/SetOfEightPuzzles.jpeg";
 
+import {useState} from "react";
+
 const Home = () => {
+    {/*
+        const [menuUopen, setMenuOpen] = useState(false);
+
+        const toggleMenu = () => {
+            setMenuOpen(!menuOpen);
+        }
+
+        in return in main nav:
+
+        <button>Menu</button>
+        
+        */}
+
   return (
     <>
     <head>
