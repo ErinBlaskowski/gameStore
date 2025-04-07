@@ -21,10 +21,10 @@ const Events = () => {
             </section>
             <nav id="main-nav">
                 <ul>
-                    <li><a href="./Home">Home</a></li>
-                    <li><a href="./About">About</a></li>
-                    <li><a href="./Store">Store</a></li>
-                    <li><a id="events" href="./Events">Events</a></li>
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/store">Store</a></li>
+                    <li><a id="events" href="/events">Events</a></li>
                 </ul>
             </nav>
             <h1 id="title">CrowPing Games</h1>
