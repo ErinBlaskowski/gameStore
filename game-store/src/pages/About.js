@@ -39,22 +39,8 @@ const About = () => {
             </div>
         </footer>
 
-        {/*
-        </><form method="POST" id="form">
-            <input type="hidden" name="access_key" value="1ee4ff90-fa7d-4874-ab3c-1c5908dc72d9">
+        
 
-            <input type="text" name="name" margin-top="5px" required>
-            <input type="email" name="email" margin-top="5px" required>
-            <textarea name="message" margin-top="5px" required></textarea>
-            <input type="checkbox" name="botcheck" class="hidden" margin-top="5px" style="display: none;">
-
-            <button type="submit">Submit Form</button>
-
-            <div id="result"></div>
-        </form>
-        <script src="form.js"></script>
-        </input>
-        */}
         </>
     )
 };

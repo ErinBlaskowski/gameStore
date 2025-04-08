@@ -10,7 +10,23 @@ import redDiceSet from "../images/RedDiceSet.png";
 import bicycleCardSet from "../images/BicycleCardSet.png";
 import setOfEightPuzzles from "../images/SetOfEightPuzzles.jpeg";
 
+import {useState} from "react";
+import {useEffect} from "react";
+import axios from "react";
+
 const Store = () => {
+
+    const [products, setProducts] = useState([]);
+
+    useEffect(() => {
+        (async () => {
+            const response = await axios.get(
+            "http://localhost:3001/api/products-json/"
+            );
+        setProducts(response.data);
+        })();
+    }, []);
+
     return (
         <>
             <main class="main">
